@@ -20,8 +20,8 @@ body {
 .categories-wrapper {
   position: absolute;
   top: 15%;
-  left: 15%;
-  width: 70%;
+  left: 8%;
+  width: 84%;
   height: 70%;
   display: flex;
   flex-direction: column;
@@ -36,8 +36,8 @@ body {
 .gift-wrapper {
   position: absolute;
   top: 25%;
-  left: 15%;
-  width: 70%;
+  left: 8%;
+  width: 84%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,6 @@ h4 {
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 30px;
-  max-width: 900px;
   justify-content: center;
   align-content: center;
   margin: 0 auto 30px;
