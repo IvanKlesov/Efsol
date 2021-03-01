@@ -127,3 +127,153 @@ button:hover {
 .hidden {
   display: none;
 }
+
+/* Media */
+
+@media (max-width: 1680px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  .leisure-wrapper h4,
+  .education-wrapper h4,
+  .health-wrapper h4,
+  .shop-wrapper h4,
+  .gift-wrapper h4 {
+    font-size: 38px;
+  }
+
+  .last-header {
+    margin-bottom: 90px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  .categories,
+  .leisure {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .categories-wrapper,
+  .leisure-wrapper,
+  .education-wrapper,
+  .health-wrapper,
+  .shop-wrapper,
+  .gift-wrapper {
+    left: 10%;
+    width: 80%;
+  }
+
+  button {
+    width: 230px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 950px) {
+  .last-header {
+    margin-bottom: 50px;
+  }
+
+  .categories-wrapper,
+  .leisure-wrapper,
+  .education-wrapper,
+  .health-wrapper,
+  .shop-wrapper,
+  .gift-wrapper {
+    top: 10%;
+    height: 80%;
+  }
+
+  .categories,
+  .leisure {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .health {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 630px) {
+  h2 {
+    font-size: 32px;
+    margin: 10px auto;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin: 10px auto;
+  }
+
+  .leisure-wrapper h4,
+  .education-wrapper h4,
+  .health-wrapper h4,
+  .shop-wrapper h4,
+  .gift-wrapper h4 {
+    font-size: 24px;
+  }
+
+  .last-header {
+    margin-bottom: 30px;
+  }
+
+  .categories,
+  .leisure {
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .health {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .education,
+  .shop {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  button {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin: 5px auto;
+  }
+
+  .leisure-wrapper h4,
+  .education-wrapper h4,
+  .health-wrapper h4,
+  .shop-wrapper h4,
+  .gift-wrapper h4 {
+    font-size: 20px;
+  }
+
+  button {
+    width: 180px;
+    height: 60px;
+    font-size: 14px;
+  }
+}
