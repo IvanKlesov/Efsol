@@ -3,7 +3,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffd200;
+  background-image: url("./assets/image/background.png");
+  background-size: cover;
+  background-position: center;
   color: #0f0f0f;
   font-family: "Montserrat", sans-serif;
 }
@@ -39,7 +41,7 @@ body {
 h2,
 h4 {
   text-align: center;
-  margin: 20px auto;
+  margin: 0 auto;
   font-size: 64px;
   font-family: "Montserrat", sans-serif;
   transition: 0.5s linear;
@@ -59,7 +61,7 @@ h4 {
 }
 
 .last-header {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .categories,
@@ -123,10 +125,6 @@ button:hover {
   .shop-wrapper h4,
   .gift-wrapper h4 {
     font-size: 38px;
-  }
-
-  .last-header {
-    margin-bottom: 90px;
   }
 
   button {
