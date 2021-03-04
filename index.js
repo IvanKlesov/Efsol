@@ -50,7 +50,6 @@ const steamGifts = [
 const yandexGifts = [
   "3 месяца подписки",
   "6 месяцев подписки",
-  "12 месяцев подписки",
   "Получить объятья от коллег"
 ];
 const books1cGifts = [
